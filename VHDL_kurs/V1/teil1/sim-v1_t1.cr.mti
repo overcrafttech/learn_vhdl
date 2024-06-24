@@ -1,0 +1,7 @@
+/home/labor/digilab1/digilab1_301/VHDL_kurs/V1/teil1/src/calc.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/labor/digilab1/digilab1_301/VHDL_kurs/V1/teil1/src/calc.vhd
+Model Technology ModelSim SE-64 vcom 2019.1 Compiler 2019.01 Jan  1 2019
+-- Loading package STANDARD
+-- Compiling entity calc
+-- Compiling architecture behav of calc
+
+} {} {}}

@@ -1,0 +1,279 @@
+# //  ModelSim SE-64 2019.1 Jan  1 2019 Linux 3.10.0-1160.95.1.el7.x86_64
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project fcalc
+cd /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src
+# reading /home/software/modelsim2019.1/modeltech/linux_x86_64/../modelsim.ini
+# Loading project rom1rom2_tb
+vsim work.rom1rom2_tb
+# vsim work.rom1rom2_tb 
+# Start time: 19:37:17 on Dec 13,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.rom1rom2_tb(sim)#1
+add list  \
+sim:/rom1rom2_tb/clk_tb \
+sim:/rom1rom2_tb/address_tb \
+sim:/rom1rom2_tb/data_1_tb \
+sim:/rom1rom2_tb/data_2_tb
+run 100 ns
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run 500 ns
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run 800 ns
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+1000 ns
+# invalid command name "1000"
+run 1000 ns
+# ** Failure: Simulation beendet
+#    Time: 900 ns  Iteration: 0  Process: /rom1rom2_tb/check File: /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom1rom2_tb.vhd
+# Break in Process check at /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom1rom2_tb.vhd line 96
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run 900 ns
+# ** Failure: Simulation beendet
+#    Time: 900 ns  Iteration: 0  Process: /rom1rom2_tb/check File: /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom1rom2_tb.vhd
+# Break in Process check at /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom1rom2_tb.vhd line 96
+quit -sim
+# End time: 19:42:19 on Dec 13,2023, Elapsed time: 0:05:02
+# Errors: 2, Warnings: 0
+vsim work.rom1rom3_tb
+# vsim work.rom1rom3_tb 
+# Start time: 19:42:46 on Dec 13,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.rom1rom3_tb(sim)#1
+add list  \
+sim:/rom1rom3_tb/clk_tb \
+sim:/rom1rom3_tb/address_tb \
+sim:/rom1rom3_tb/data_1_tb \
+sim:/rom1rom3_tb/data_3_tb
+run 900 ns
+# ** Failure: Simulation beendet
+#    Time: 900 ns  Iteration: 0  Process: /rom1rom3_tb/check File: /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom1rom3_tb.vhd
+# Break in Process check at /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom1rom3_tb.vhd line 80
+quit -sim
+# End time: 19:44:27 on Dec 13,2023, Elapsed time: 0:01:41
+# Errors: 1, Warnings: 0
+vsim work.rom1rom3_tb
+# vsim work.rom1rom3_tb 
+# Start time: 19:45:36 on Dec 13,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.rom1rom3_tb(sim)#1
+add wave  \
+sim:/rom1rom3_tb/clk_tb \
+sim:/rom1rom3_tb/address_tb \
+sim:/rom1rom3_tb/data_1_tb \
+sim:/rom1rom3_tb/data_3_tb
+run 900 ns
+# ** Failure: Simulation beendet
+#    Time: 900 ns  Iteration: 0  Process: /rom1rom3_tb/check File: /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom1rom3_tb.vhd
+# Break in Process check at /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom1rom3_tb.vhd line 80
+# Causality operation skipped due to absence of debug database file
+quit -sim
+# End time: 19:47:51 on Dec 13,2023, Elapsed time: 0:02:15
+# Errors: 4, Warnings: 1
+cd /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil3/src
+# reading /home/software/modelsim2019.1/modeltech/linux_x86_64/../modelsim.ini
+vsim work.pcu_tb
+# vsim work.pcu_tb 
+# Start time: 19:48:22 on Dec 13,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.pcu_tb(sim)#1
+add wave  \
+sim:/pcu_tb/clk_tb \
+sim:/pcu_tb/rst_tb \
+sim:/pcu_tb/load_tb \
+sim:/pcu_tb/jump_tb \
+sim:/pcu_tb/stop_tb \
+sim:/pcu_tb/loadvalue_tb \
+sim:/pcu_tb/pc_tb \
+sim:/pcu_tb/count_tb
+run 900 ns
+# ** Note: *** Beginn Stop Test ***
+#    Time: 42 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 5, stop 1
+#    Time: 42 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 6, stop 1, load 1
+#    Time: 50 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 7, stop 1, jump 1
+#    Time: 60 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 8, stop 1, load 1, jump 1
+#    Time: 70 ns  Iteration: 0  Instance: /pcu_tb
+# ** Error: PCU: load'n'jump
+#    Time: 75 ns  Iteration: 0  Instance: /pcu_tb/testobjekt
+# ** Note: *** Ende Stop Test ***
+#    Time: 80 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: *** Beginn Load/Jump Test ***
+#    Time: 80 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 9, s0, l1, j0
+#    Time: 80 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 10, s0, l0, j1
+#    Time: 90 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 11-12, s0, l0, j1
+#    Time: 100 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: *** Ende Load/Jump Test ***
+#    Time: 120 ns  Iteration: 0  Instance: /pcu_tb
+# ** Failure: Simulation beendet
+#    Time: 120 ns  Iteration: 0  Process: /pcu_tb/check File: /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil3/src/pcu_tb.vhd
+# Break in Process check at /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil3/src/pcu_tb.vhd line 176
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+run 200 ns
+# ** Note: *** Beginn Stop Test ***
+#    Time: 42 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 5, stop 1
+#    Time: 42 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 6, stop 1, load 1
+#    Time: 50 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 7, stop 1, jump 1
+#    Time: 60 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 8, stop 1, load 1, jump 1
+#    Time: 70 ns  Iteration: 0  Instance: /pcu_tb
+# ** Error: PCU: load'n'jump
+#    Time: 75 ns  Iteration: 0  Instance: /pcu_tb/testobjekt
+# ** Note: *** Ende Stop Test ***
+#    Time: 80 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: *** Beginn Load/Jump Test ***
+#    Time: 80 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 9, s0, l1, j0
+#    Time: 80 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 10, s0, l0, j1
+#    Time: 90 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 11-12, s0, l0, j1
+#    Time: 100 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: *** Ende Load/Jump Test ***
+#    Time: 120 ns  Iteration: 0  Instance: /pcu_tb
+# ** Failure: Simulation beendet
+#    Time: 120 ns  Iteration: 0  Process: /pcu_tb/check File: /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil3/src/pcu_tb.vhd
+# Break in Process check at /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil3/src/pcu_tb.vhd line 176
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+run 100 ns
+# ** Note: *** Beginn Stop Test ***
+#    Time: 42 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 5, stop 1
+#    Time: 42 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 6, stop 1, load 1
+#    Time: 50 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 7, stop 1, jump 1
+#    Time: 60 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 8, stop 1, load 1, jump 1
+#    Time: 70 ns  Iteration: 0  Instance: /pcu_tb
+# ** Error: PCU: load'n'jump
+#    Time: 75 ns  Iteration: 0  Instance: /pcu_tb/testobjekt
+# ** Note: *** Ende Stop Test ***
+#    Time: 80 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: *** Beginn Load/Jump Test ***
+#    Time: 80 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 9, s0, l1, j0
+#    Time: 80 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 10, s0, l0, j1
+#    Time: 90 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 11-12, s0, l0, j1
+#    Time: 100 ns  Iteration: 0  Instance: /pcu_tb
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+run 80 ns
+# ** Note: *** Beginn Stop Test ***
+#    Time: 42 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 5, stop 1
+#    Time: 42 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 6, stop 1, load 1
+#    Time: 50 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 7, stop 1, jump 1
+#    Time: 60 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 8, stop 1, load 1, jump 1
+#    Time: 70 ns  Iteration: 0  Instance: /pcu_tb
+# ** Error: PCU: load'n'jump
+#    Time: 75 ns  Iteration: 0  Instance: /pcu_tb/testobjekt
+# ** Note: *** Ende Stop Test ***
+#    Time: 80 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: *** Beginn Load/Jump Test ***
+#    Time: 80 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 9, s0, l1, j0
+#    Time: 80 ns  Iteration: 0  Instance: /pcu_tb
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+run 100 ns
+# ** Note: *** Beginn Stop Test ***
+#    Time: 42 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 5, stop 1
+#    Time: 42 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 6, stop 1, load 1
+#    Time: 50 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 7, stop 1, jump 1
+#    Time: 60 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 8, stop 1, load 1, jump 1
+#    Time: 70 ns  Iteration: 0  Instance: /pcu_tb
+# ** Error: PCU: load'n'jump
+#    Time: 75 ns  Iteration: 0  Instance: /pcu_tb/testobjekt
+# ** Note: *** Ende Stop Test ***
+#    Time: 80 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: *** Beginn Load/Jump Test ***
+#    Time: 80 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 9, s0, l1, j0
+#    Time: 80 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 10, s0, l0, j1
+#    Time: 90 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 11-12, s0, l0, j1
+#    Time: 100 ns  Iteration: 0  Instance: /pcu_tb
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+run 120 ns
+# ** Note: *** Beginn Stop Test ***
+#    Time: 42 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 5, stop 1
+#    Time: 42 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 6, stop 1, load 1
+#    Time: 50 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 7, stop 1, jump 1
+#    Time: 60 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 8, stop 1, load 1, jump 1
+#    Time: 70 ns  Iteration: 0  Instance: /pcu_tb
+# ** Error: PCU: load'n'jump
+#    Time: 75 ns  Iteration: 0  Instance: /pcu_tb/testobjekt
+# ** Note: *** Ende Stop Test ***
+#    Time: 80 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: *** Beginn Load/Jump Test ***
+#    Time: 80 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 9, s0, l1, j0
+#    Time: 80 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 10, s0, l0, j1
+#    Time: 90 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: Test: count 11-12, s0, l0, j1
+#    Time: 100 ns  Iteration: 0  Instance: /pcu_tb
+# ** Note: *** Ende Load/Jump Test ***
+#    Time: 120 ns  Iteration: 0  Instance: /pcu_tb
+# ** Failure: Simulation beendet
+#    Time: 120 ns  Iteration: 0  Process: /pcu_tb/check File: /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil3/src/pcu_tb.vhd
+# Break in Process check at /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil3/src/pcu_tb.vhd line 176
+quit -sim
+# End time: 20:09:49 on Dec 13,2023, Elapsed time: 0:21:27
+# Errors: 2, Warnings: 0
+cd /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil1/src
+# Loading project rom1rom2_tb

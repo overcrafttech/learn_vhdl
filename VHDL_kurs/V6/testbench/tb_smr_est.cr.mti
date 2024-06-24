@@ -1,0 +1,31 @@
+/home/labor/digilab1/digilab1_301/VHDL_kurs/V6/src/ram_samples_255x16.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/labor/digilab1/digilab1_301/VHDL_kurs/V6/src/ram_samples_255x16.vhd
+Model Technology ModelSim SE-64 vcom 2019.1 Compiler 2019.01 Jan  1 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ram_samples_255x16
+-- Compiling architecture wrapper of ram_samples_255x16
+
+} {} {}} /home/labor/digilab1/digilab1_301/VHDL_kurs/V6/src/gen_dp_bram_aew_ber.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/labor/digilab1/digilab1_301/VHDL_kurs/V6/src/gen_dp_bram_aew_ber.vhd
+Model Technology ModelSim SE-64 vcom 2019.1 Compiler 2019.01 Jan  1 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity gen_dp_bram_aew_ber
+-- Compiling architecture syn of gen_dp_bram_aew_ber
+
+} {} {}} /home/labor/digilab1/digilab1_301/VHDL_kurs/V6/testbench/tb_snr_est.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/labor/digilab1/digilab1_301/VHDL_kurs/V6/testbench/tb_snr_est.vhd
+Model Technology ModelSim SE-64 vcom 2019.1 Compiler 2019.01 Jan  1 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package MATH_REAL
+-- Compiling entity tb_snr_est
+-- Compiling architecture sim of tb_snr_est
+** Warning: /home/labor/digilab1/digilab1_301/VHDL_kurs/V6/testbench/tb_snr_est.vhd(115): (vcom-1236) Shared variables must be of a protected type.
+
+} {} {}}

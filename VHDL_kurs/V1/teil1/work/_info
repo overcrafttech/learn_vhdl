@@ -1,0 +1,66 @@
+m255
+K4
+z2
+!s11e vcom 2019.1 2019.01, Jan  1 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/labor/digilab1/digilab1_301/VHDL_kurs/V1/teil1
+T_opt
+!s110 1700055524
+V^lXz0c8eV>X5b9n[P5^ZS1
+Z1 04 4 5 work calc behav 1
+=1-3448edf80653-6554c9e4-2c376-36053
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2019.1;69
+R0
+T_opt1
+!s110 1700655003
+VB0A@:nW>RGYX38SPD4;2d3
+R1
+=1-3448edf80653-655def9b-9bce-1de86
+o-quiet -auto_acc_if_foreign -work work
+R2
+n@_opt1
+R3
+R0
+Ecalc
+Z4 w1698409244
+R0
+Z5 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V1/teil1/src/calc.vhd
+Z6 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V1/teil1/src/calc.vhd
+l0
+L1
+VBnOn;OGQU@9aR2Dh5]:Zk2
+!s100 =CnCG8N:OA:I72eBi[4e91
+Z7 OL;C;2019.1;69
+32
+Z8 !s110 1700660267
+!i10b 1
+Z9 !s108 1700660267.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V1/teil1/src/calc.vhd|
+Z11 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V1/teil1/src/calc.vhd|
+!i113 0
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehav
+Z14 DEx4 work 4 calc 0 22 BnOn;OGQU@9aR2Dh5]:Zk2
+l10
+L8
+Z15 V>BW:KdST_RXNkm3dAeKQ10
+Z16 !s100 L^D?CHBWSaJjRc^_DKgR`1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13

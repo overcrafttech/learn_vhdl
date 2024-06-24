@@ -1,0 +1,88 @@
+# //  ModelSim SE-64 2019.1 Jan  1 2019 Linux 3.10.0-1160.95.1.el7.x86_64
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project testbench_ampel_top
+vsim work.testbench_ampel_top
+# vsim work.testbench_ampel_top 
+# Start time: 13:05:16 on Jan 10,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testbench_ampel_top(sim)#1
+add wave  \
+sim:/testbench_ampel_top/clk_tb \
+sim:/testbench_ampel_top/rst_n_tb \
+sim:/testbench_ampel_top/clk_period
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 1 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 2 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 3 times, errno 11
+# ** Error: Cannot lock WLF file: "vsim.wlf"
+#           errno 11: Resource temporarily unavailable.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: unknown  Hostname: emslab02.eit.uni-kl.de  ProcessID: 131741
+#           Attempting to use alternate WLF file "./wlftLJfWm3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftLJfWm3
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run 10000 ns
+add wave  \
+sim:/testbench_ampel_top/clk_tb \
+sim:/testbench_ampel_top/rst_n_tb \
+sim:/testbench_ampel_top/clk_period
+quit -sim
+# End time: 13:07:46 on Jan 10,2024, Elapsed time: 0:02:30
+# Errors: 0, Warnings: 0
+vsim work.testbench_ampel_top
+# vsim work.testbench_ampel_top 
+# Start time: 13:07:50 on Jan 10,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testbench_ampel_top(sim)#1
+quit -sim
+# End time: 13:08:00 on Jan 10,2024, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0
+vsim work.testbench_ampel_top
+# vsim work.testbench_ampel_top 
+# Start time: 13:08:35 on Jan 10,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testbench_ampel_top(sim)#1
+add wave  \
+sim:/testbench_ampel_top/clk_tb \
+sim:/testbench_ampel_top/rst_n_tb \
+sim:/testbench_ampel_top/clk_period
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 1 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 2 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 3 times, errno 11
+# ** Error: Cannot lock WLF file: "vsim.wlf"
+#           errno 11: Resource temporarily unavailable.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: unknown  Hostname: emslab02.eit.uni-kl.de  ProcessID: 131741
+#           Attempting to use alternate WLF file "./wlftVfZxWB".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftVfZxWB
+run 10000 ms
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 5 ms  Iteration: 0  Instance: /testbench_ampel_top/ampel_top_component/timer_component
+quit -sim
+# End time: 13:29:05 on Jan 10,2024, Elapsed time: 0:20:30
+# Errors: 12, Warnings: 3

@@ -1,0 +1,429 @@
+# //  ModelSim SE-64 2019.1 Jan  1 2019 Linux 3.10.0-1160.95.1.el7.x86_64
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project simdemo
+# Compile of simdemo.vhd was successful.
+# Compile of simdemo_tb.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# reading /home/software/modelsim2019.1/modeltech/linux_x86_64/../modelsim.ini
+# Loading project fcalc
+# Compile of fcalc.vhd was successful.
+# Compile of fcalc_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.fcalc_tb
+# vsim work.fcalc_tb 
+# Start time: 12:49:17 on Dec 06,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fcalc_tb(sim)#1
+run 100ns
+# ** Note: Test oberer Grenzwert \n
+#    Time: 0 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert \n
+#    Time: 90 ns  Iteration: 0  Instance: /fcalc_tb
+add list  \
+sim:/fcalc_tb/tb_a \
+sim:/fcalc_tb/tb_b \
+sim:/fcalc_tb/tb_c \
+sim:/fcalc_tb/tb_en
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+run 100ns
+# ** Note: Test oberer Grenzwert \n
+#    Time: 0 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert \n
+#    Time: 90 ns  Iteration: 0  Instance: /fcalc_tb
+# Compile of fcalc.vhd was successful.
+# Compile of fcalc_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fcalc_tb(sim)#1
+run 100ns
+# ** Note: Test oberer Grenzwert
+#    Time: 0 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 90 ns  Iteration: 0  Instance: /fcalc_tb
+# Compile of fcalc.vhd was successful.
+# Compile of fcalc_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fcalc_tb(sim)#1
+run 100ns
+# ** Note: Test oberer Grenzwert
+#    Time: 0 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 100 ns  Iteration: 0  Instance: /fcalc_tb
+# Compile of fcalc.vhd was successful.
+# Compile of fcalc_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fcalc_tb(sim)#1
+run 100ns
+# ** Note: Test oberer Grenzwert
+#    Time: 0 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 100 ns  Iteration: 0  Instance: /fcalc_tb
+# Compile of fcalc.vhd was successful.
+# Compile of fcalc_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fcalc_tb(sim)#1
+run 100ns
+# ** Note: Test oberer Grenzwert
+#    Time: 0 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 100 ns  Iteration: 0  Instance: /fcalc_tb
+# Compile of fcalc.vhd was successful.
+# Compile of fcalc_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fcalc_tb(sim)#1
+run 100ns
+# ** Note: Test unterer Grenzwert
+#    Time: 0 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 40 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test null
+#    Time: 80 ns  Iteration: 0  Instance: /fcalc_tb
+run 100ns
+# ** Note: Test unterer Grenzwert
+#    Time: 120 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 160 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test null
+#    Time: 200 ns  Iteration: 0  Instance: /fcalc_tb
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+run 150ns
+# ** Note: Test unterer Grenzwert
+#    Time: 0 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 40 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test null
+#    Time: 80 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test unterer Grenzwert
+#    Time: 120 ns  Iteration: 0  Instance: /fcalc_tb
+# Compile of fcalc.vhd was successful.
+# Compile of fcalc_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fcalc_tb(sim)#1
+run 150ns
+# ** Note: Test unterer Grenzwert
+#    Time: 0 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 40 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test null
+#    Time: 80 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test unterer Grenzwert
+#    Time: 120 ns  Iteration: 0  Instance: /fcalc_tb
+# Compile of fcalc.vhd was successful.
+# Compile of fcalc_tb.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+run 150ns
+# ** Note: Test oberer Grenzwert
+#    Time: 160 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test null
+#    Time: 200 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test unterer Grenzwert
+#    Time: 240 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 280 ns  Iteration: 0  Instance: /fcalc_tb
+# Compile of fcalc.vhd was successful.
+# Compile of fcalc_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+run 150ns
+# ** Note: Test null
+#    Time: 320 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test unterer Grenzwert
+#    Time: 360 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 400 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test null
+#    Time: 440 ns  Iteration: 0  Instance: /fcalc_tb
+# Compile of fcalc.vhd was successful.
+# Compile of fcalc_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fcalc_tb(sim)#1
+run 150ns
+# ** Note: Test unterer Grenzwert
+#    Time: 0 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 20 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test Null
+#    Time: 40 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test unterer Grenzwert
+#    Time: 70 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 90 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test Null
+#    Time: 110 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test unterer Grenzwert
+#    Time: 140 ns  Iteration: 0  Instance: /fcalc_tb
+# Compile of fcalc.vhd was successful.
+# Compile of fcalc_tb.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of fcalc.vhd was successful.
+# Compile of fcalc_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fcalc_tb(sim)#1
+run 150ns
+# ** Note: Test unterer Grenzwert
+#    Time: 0 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 20 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test Null
+#    Time: 40 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test unterer Grenzwert
+#    Time: 70 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 90 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test Null
+#    Time: 110 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test unterer Grenzwert
+#    Time: 140 ns  Iteration: 0  Instance: /fcalc_tb
+# Compile of fcalc.vhd was successful.
+# Compile of fcalc_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fcalc_tb(sim)#1
+run 150ns
+# ** Note: Test unterer Grenzwert
+#    Time: 0 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 20 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test Null
+#    Time: 40 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test unterer Grenzwert
+#    Time: 60 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 80 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test Null
+#    Time: 100 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test unterer Grenzwert
+#    Time: 120 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 140 ns  Iteration: 0  Instance: /fcalc_tb
+# Compile of fcalc.vhd was successful.
+# Compile of fcalc_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fcalc_tb(sim)#1
+run 150ns
+# ** Note: Test unterer Grenzwert
+#    Time: 0 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 30 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test Null
+#    Time: 60 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test unterer Grenzwert
+#    Time: 90 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 120 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test Null
+#    Time: 150 ns  Iteration: 0  Instance: /fcalc_tb
+# Compile of fcalc.vhd was successful.
+# Compile of fcalc_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fcalc_tb(sim)#1
+run 150ns
+# ** Note: Test unterer Grenzwert
+#    Time: 0 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 20 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test Null
+#    Time: 40 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test unterer Grenzwert
+#    Time: 60 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 80 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test Null
+#    Time: 100 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test unterer Grenzwert
+#    Time: 120 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 140 ns  Iteration: 0  Instance: /fcalc_tb
+# Compile of fcalc.vhd was successful.
+# Compile of fcalc_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fcalc_tb(sim)#1
+run 150ns
+# ** Note: Test unterer Grenzwert
+#    Time: 0 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 20 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test Null
+#    Time: 40 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Failure: Simulation finished!
+#    Time: 60 ns  Iteration: 0  Process: /fcalc_tb/stimuli File: /home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil3/src/fcalc_tb.vhd
+# Break in Process stimuli at /home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil3/src/fcalc_tb.vhd line 59
+# Compile of fcalc.vhd was successful.
+# Compile of fcalc_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fcalc_tb(sim)#1
+run 150ns
+# ** Note: Test unterer Grenzwert
+#    Time: 0 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 20 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test Null
+#    Time: 40 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Failure: Simulation finished!
+#    Time: 60 ns  Iteration: 0  Process: /fcalc_tb/stimuli File: /home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil3/src/fcalc_tb.vhd
+# Break in Process stimuli at /home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil3/src/fcalc_tb.vhd line 59
+# Compile of fcalc.vhd was successful.
+# Compile of fcalc_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fcalc_tb(sim)#1
+run 150ns
+# ** Note: Test unterer Grenzwert
+#    Time: 0 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 20 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test Null
+#    Time: 40 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Failure: Simulation finished!
+#    Time: 60 ns  Iteration: 0  Process: /fcalc_tb/stimuli File: /home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil3/src/fcalc_tb.vhd
+# Break in Process stimuli at /home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil3/src/fcalc_tb.vhd line 59
+# Compile of fcalc.vhd was successful.
+# Compile of fcalc_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+run 150ns
+# ** Note: Test unterer Grenzwert
+#    Time: 0 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 20 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test Null
+#    Time: 40 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Failure: Simulation finished!
+#    Time: 60 ns  Iteration: 0  Process: /fcalc_tb/stimuli File: /home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil3/src/fcalc_tb.vhd
+# Break in Process stimuli at /home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil3/src/fcalc_tb.vhd line 59
+# Compile of fcalc.vhd was successful.
+# Compile of fcalc_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fcalc_tb(sim)#1
+run 150ns
+# ** Note: Test unterer Grenzwert
+#    Time: 0 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Failure: Ergebnis -192 ist korrekt
+#    Time: 20 ns  Iteration: 0  Process: /fcalc_tb/stimuli File: /home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil3/src/fcalc_tb.vhd
+# Break in Process stimuli at /home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil3/src/fcalc_tb.vhd line 35
+# Compile of fcalc.vhd was successful.
+# Compile of fcalc_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fcalc_tb(sim)#1
+run 150ns
+# ** Note: Test unterer Grenzwert
+#    Time: 0 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test oberer Grenzwert
+#    Time: 20 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Note: Test Null
+#    Time: 40 ns  Iteration: 0  Instance: /fcalc_tb
+# ** Failure: Simulation finished!
+#    Time: 60 ns  Iteration: 0  Process: /fcalc_tb/stimuli File: /home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil3/src/fcalc_tb.vhd
+# Break in Process stimuli at /home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil3/src/fcalc_tb.vhd line 59
+# End time: 13:00:12 on Dec 07,2023, Elapsed time: 24:10:55
+# Errors: 1, Warnings: 0

@@ -1,0 +1,286 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil3/src
+T_opt
+!s110 1705396958
+V?JJ@4B1DKVGcjdmnWKfDz0
+Z1 04 19 3 work testbench_ampel_top sim 1
+=1-3448edf80653-65a64ade-8bc9f-3fb82
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2019.1;69
+T_opt1
+!s110 1704813757
+V9Cl:G`^3=482dL?QBe]EH2
+04 11 3 work ampel_sm_tb sim 1
+=9-3448edf80653-659d64bd-3124d-e825
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1704820260
+VYOHlJT[b8CJL6jlGVBheX3
+R1
+=11-3448edf80653-659d7e24-2331d-144b7
+R2
+R3
+n@_opt2
+R4
+R0
+Eampel_sm
+Z5 w1704895361
+Z6 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z9 d/home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src
+Z10 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/ampel_sm.vhd
+Z11 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/ampel_sm.vhd
+l0
+L54
+VYHR7eb5:gXh:2ZFzGVgKk2
+!s100 fXU0702m6z1Fg8@MBI0861
+Z12 OL;C;2019.1;69
+32
+Z13 !s110 1705394388
+!i10b 1
+Z14 !s108 1705394387.000000
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/ampel_sm.vhd|
+Z16 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/ampel_sm.vhd|
+!i113 0
+Z17 o-work work -2002 -explicit
+Z18 tExplicit 1 CvgOpt 0
+Abehavioral
+R6
+R7
+R8
+DEx4 work 8 ampel_sm 0 22 YHR7eb5:gXh:2ZFzGVgKk2
+l73
+L67
+VcGId=eXidM0hRUDoY7=X51
+!s100 Q:I3e?]4f1Pzj6mPC62Ro3
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Eampel_sm_tb
+Z19 w1704812979
+R6
+R7
+R8
+R9
+Z20 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/ampel_sm_tb.vhd
+Z21 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/ampel_sm_tb.vhd
+l0
+L5
+VW:LBFal3c]ToLlJoS<zUc2
+!s100 keihXKUK`<4;=B7zUzL;?1
+R12
+32
+Z22 !s110 1704813750
+!i10b 1
+Z23 !s108 1704813750.000000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/ampel_sm_tb.vhd|
+Z25 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/ampel_sm_tb.vhd|
+!i113 0
+R17
+R18
+Asim
+R6
+R7
+R8
+DEx4 work 11 ampel_sm_tb 0 22 W:LBFal3c]ToLlJoS<zUc2
+l30
+L8
+VHmJX1b]A`fz5z>Sn>U0cb0
+!s100 >IVCYn_z[WP;PnRZ1T0EE2
+R12
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R17
+R18
+Eampel_top
+Z26 w1704894515
+R6
+R7
+R8
+R9
+Z27 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/ampel_top.vhd
+Z28 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/ampel_top.vhd
+l0
+L28
+VYOOW<5zj_`:kefHfLoQTE0
+!s100 oKUX:S_WT:>cJi>e2E]zo3
+R12
+32
+R13
+!i10b 1
+Z29 !s108 1705394388.000000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/ampel_top.vhd|
+Z31 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/ampel_top.vhd|
+!i113 0
+R17
+R18
+Aampel_top_arch
+R6
+R7
+R8
+DEx4 work 9 ampel_top 0 22 YOOW<5zj_`:kefHfLoQTE0
+l74
+L43
+V4;G0_ZbIRiC7QEo;zRk5T2
+!s100 jZ_Zf[?eTQ3Feak_EePYS1
+R12
+32
+R13
+!i10b 1
+R29
+R30
+R31
+!i113 0
+R17
+R18
+Etestbench_ampel_top
+Z32 w1704820248
+R6
+R7
+R8
+R9
+Z33 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/testbench_ampel_top.vhd
+Z34 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/testbench_ampel_top.vhd
+l0
+L13
+V`PK<ojNKMN`V8Iz^49@:c0
+!s100 YVl4]c>ggNBbMfiPlAI>Q2
+R12
+32
+Z35 !s110 1705394387
+!i10b 1
+R14
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/testbench_ampel_top.vhd|
+Z37 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/testbench_ampel_top.vhd|
+!i113 0
+R17
+R18
+Asim
+R6
+R7
+R8
+DEx4 work 19 testbench_ampel_top 0 22 `PK<ojNKMN`V8Iz^49@:c0
+l49
+L19
+VOoSYe0[:T7=Pa^^caCN@b0
+!s100 aZ4gDM^=hR^FV6zBcU@E^3
+R12
+32
+R35
+!i10b 1
+R14
+R36
+R37
+!i113 0
+R17
+R18
+Etimer
+Z38 w1704895271
+R6
+R7
+R8
+R9
+Z39 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/timer.vhd
+Z40 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/timer.vhd
+l0
+L33
+V>ZW^OmJ5Y[RHogcle45PC0
+!s100 lnAHEb;Qa=[_l:4TR^Q;f0
+R12
+32
+R13
+!i10b 1
+R29
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/timer.vhd|
+Z42 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/timer.vhd|
+!i113 0
+R17
+R18
+Abehavioral
+R6
+R7
+R8
+DEx4 work 5 timer 0 22 >ZW^OmJ5Y[RHogcle45PC0
+l52
+L44
+VD9T[c=G<C8VT^A;bkVSfz3
+!s100 jE<ell]9IEJBAS0gG6Gmo0
+R12
+32
+R13
+!i10b 1
+R29
+R41
+R42
+!i113 0
+R17
+R18
+Etimer_tb
+Z43 w1704809729
+R6
+R7
+R8
+R9
+Z44 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/timer_tb.vhd
+Z45 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/timer_tb.vhd
+l0
+L5
+VIhGmQPNH1H7K`F3^kADB]1
+!s100 ?CYLS:E=LKS[K_gz:29Il2
+R12
+32
+Z46 !s110 1704809737
+!i10b 1
+Z47 !s108 1704809737.000000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/timer_tb.vhd|
+Z49 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/timer_tb.vhd|
+!i113 0
+R17
+R18
+Asim
+R6
+R7
+R8
+DEx4 work 8 timer_tb 0 22 IhGmQPNH1H7K`F3^kADB]1
+l31
+L8
+V48G58N521>]T5ncoF8bHk2
+!s100 jM2>^VDh=a?ZdXR4habCI1
+R12
+32
+R46
+!i10b 1
+R47
+R48
+R49
+!i113 0
+R17
+R18

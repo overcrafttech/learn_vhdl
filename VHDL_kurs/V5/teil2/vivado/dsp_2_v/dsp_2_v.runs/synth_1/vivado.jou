@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jan 25 13:32:35 2024
+# Process ID: 152527
+# Current directory: /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/vivado/dsp_2_v/dsp_2_v.runs/synth_1
+# Command line: vivado -log dsp_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dsp_2.tcl
+# Log file: /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/vivado/dsp_2_v/dsp_2_v.runs/synth_1/dsp_2.vds
+# Journal file: /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/vivado/dsp_2_v/dsp_2_v.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source dsp_2.tcl -notrace

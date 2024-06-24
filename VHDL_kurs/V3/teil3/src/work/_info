@@ -1,0 +1,113 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil3/src
+T_opt
+!s110 1701987658
+Vnh`Nm@LjRV[PL3K@eZc`a0
+04 3 8 work pcu behavior 1
+=1-3448edf80653-6572454a-59108-1f85b
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2019.1;69
+R0
+T_opt1
+!s110 1702026661
+VM14>3X?OYGCiDg1J2<T7l0
+04 6 3 work pcu_tb sim 1
+=6-3448edf80653-6572dda4-dfafa-222a9
+R1
+R2
+n@_opt1
+R3
+R0
+Epcu
+Z4 w1702026786
+Z5 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z8 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil3/src/pcu.vhd
+Z9 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil3/src/pcu.vhd
+l0
+L5
+VKDd0>IEn]hfB1O@KLk0W@1
+!s100 @Ko:aCoIiG1f^H0STMVPJ3
+Z10 OL;C;2019.1;69
+32
+Z11 !s110 1702549499
+!i10b 1
+Z12 !s108 1702549499.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil3/src/pcu.vhd|
+Z14 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil3/src/pcu.vhd|
+!i113 0
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Abehavior
+R5
+R6
+R7
+DEx4 work 3 pcu 0 22 KDd0>IEn]hfB1O@KLk0W@1
+l20
+L17
+VBB1zHZHC==?mko:3mi]:H1
+!s100 _gRY7UCEMmz9AC:5VbOlY3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Epcu_tb
+Z17 w1702029796
+R5
+R6
+R7
+R0
+Z18 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil3/src/pcu_tb.vhd
+Z19 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil3/src/pcu_tb.vhd
+l0
+L5
+VNBTIBFaIc@MMPM>D0ADFi3
+!s100 9a`jnIEhifC7_?B1M;L=02
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil3/src/pcu_tb.vhd|
+Z21 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil3/src/pcu_tb.vhd|
+!i113 0
+R15
+R16
+Asim
+R5
+R6
+R7
+Z22 DEx4 work 6 pcu_tb 0 22 NBTIBFaIc@MMPM>D0ADFi3
+l36
+L8
+Z23 Vc?>V3afmkiCifKYzRPjlU1
+Z24 !s100 ZbX`bK3R^[k3A4>nVSK;b1
+R10
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 0
+R15
+R16

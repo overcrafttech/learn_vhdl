@@ -1,0 +1,225 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src
+T_opt
+!s110 1701956101
+V=NM?=jah27:WzCfJAD2X^1
+04 11 3 work rom1rom2_tb sim 1
+=2-3448edf80653-6571ca04-d964d-1adb5
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2019.1;69
+R0
+T_opt1
+!s110 1701957312
+VeVeFX?n;kEeJUZkGZd;?13
+04 11 3 work rom1rom3_tb sim 1
+=2-3448edf80653-6571cec0-3c7f1-1b860
+R1
+R2
+n@_opt1
+R3
+Erom1
+Z4 w1701954663
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z7 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom1.vhd
+Z8 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom1.vhd
+l0
+L5
+VV]z?KRDaUDSCE=KMNo3400
+!s100 fMem[mdMn9_m[bTW_Y[k>3
+Z9 OL;C;2019.1;69
+32
+Z10 !s110 1701957306
+!i10b 1
+Z11 !s108 1701957306.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom1.vhd|
+Z13 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom1.vhd|
+!i113 0
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Averhalten
+R5
+R6
+DEx4 work 4 rom1 0 22 V]z?KRDaUDSCE=KMNo3400
+l14
+L12
+VDZ8k8l9lPje1_4P:@=KfZ2
+!s100 LLZ8bd9`zblKd2?ek0S6P2
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Erom1rom2_tb
+Z16 w1701956089
+R5
+R6
+R0
+Z17 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom1rom2_tb.vhd
+Z18 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom1rom2_tb.vhd
+l0
+L4
+Vo32V0l:LaSjFHc8B;eBRi2
+!s100 YGefc?k@HFU5:WP`<08ZQ0
+R9
+32
+R10
+!i10b 1
+R11
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom1rom2_tb.vhd|
+Z20 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom1rom2_tb.vhd|
+!i113 0
+R14
+R15
+Asim
+R5
+R6
+DEx4 work 11 rom1rom2_tb 0 22 o32V0l:LaSjFHc8B;eBRi2
+l34
+L7
+V<0F:<RdOE?<:;AL0e[3Dl0
+!s100 O_ZK8D?D4La=mKl@UX6kL1
+R9
+32
+R10
+!i10b 1
+R11
+R19
+R20
+!i113 0
+R14
+R15
+Erom1rom3_tb
+Z21 w1701957294
+R5
+R6
+R0
+Z22 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom1rom3_tb.vhd
+Z23 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom1rom3_tb.vhd
+l0
+L4
+V<=7:RLhU40QL@oGeVPYCO1
+!s100 2E68e[CH>m0RKLmAakX?_1
+R9
+32
+R10
+!i10b 1
+R11
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom1rom3_tb.vhd|
+Z25 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom1rom3_tb.vhd|
+!i113 0
+R14
+R15
+Asim
+R5
+R6
+DEx4 work 11 rom1rom3_tb 0 22 <=7:RLhU40QL@oGeVPYCO1
+l33
+L7
+VWR]=LkWK:o79>95BO`3_^1
+!s100 ITCl5Zdo4XcEE_oKUeY9M1
+R9
+32
+R10
+!i10b 1
+R11
+R24
+R25
+!i113 0
+R14
+R15
+Erom2
+Z26 w1701954668
+R5
+R6
+R0
+Z27 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom2.vhd
+Z28 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom2.vhd
+l0
+L4
+VLNN[dRzBO^34<9<c_`h3l3
+!s100 8c9oil@J5eJjZkXzN1JUC2
+R9
+32
+R10
+!i10b 1
+R11
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom2.vhd|
+Z30 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom2.vhd|
+!i113 0
+R14
+R15
+Averhalten
+R5
+R6
+DEx4 work 4 rom2 0 22 LNN[dRzBO^34<9<c_`h3l3
+l13
+L11
+VMV@FA2M^k9S]oC3^G0T4W3
+!s100 ?f52gZz`LZi8hH@GbZgZF0
+R9
+32
+R10
+!i10b 1
+R11
+R29
+R30
+!i113 0
+R14
+R15
+Erom3
+Z31 w1701954674
+R5
+R6
+R0
+Z32 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom3.vhd
+Z33 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom3.vhd
+l0
+L4
+V_`dOh7CXAiYchfS0QYJFA2
+!s100 Eb]GBeDGgi<_:]FOTEbg;3
+R9
+32
+R10
+!i10b 1
+R11
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom3.vhd|
+Z35 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V3/teil2/src/rom3.vhd|
+!i113 0
+R14
+R15
+Averhalten
+R5
+R6
+DEx4 work 4 rom3 0 22 _`dOh7CXAiYchfS0QYJFA2
+l15
+L11
+VWIh]OW_TgkIWzAWgc:1?F3
+!s100 F3QUcdDZDV9705=M2lE4X1
+R9
+32
+R10
+!i10b 1
+R11
+R34
+R35
+!i113 0
+R14
+R15

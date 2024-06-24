@@ -1,0 +1,84 @@
+# ** Note: TESTBENCH => 1. Block wird an snr_est gesendet
+#    Time: 1550 ns  Iteration: 1  Instance: /tb_snr_est
+# TESTBENCH => Berechneter SNR-Wert: 5.862657e+00 dB
+
+psf 72
+prf 408
+num 8
+SNR korrekt
+
+#  =========================
+# ** Note: TESTBENCH => 2. Block wird an snr_est gesendet
+#    Time: 3550 ns  Iteration: 1  Instance: /tb_snr_est
+# TESTBENCH => Berechneter SNR-Wert: -1.822890e+00 dB
+
+psf 1574
+prf 195222
+num 16
+SNR korrekt
+
+#  =========================
+# ** Note: TESTBENCH => 3. Block wird an snr_est gesendet
+#    Time: 7150 ns  Iteration: 1  Instance: /tb_snr_est
+# ** Note: TESTBENCH => Berechnung SNR-Verhaeltnis nicht moeglich (Division durch 0 d.h. Pr = Ps). Das ist korrekt beim 2. und 3. Block der Testdaten
+#    Time: 32850 ns  Iteration: 0  Instance: /tb_snr_est
+
+psf 64770
+prf 8225790
+num 255
+SNR nicht definiert --> korrekt
+
+#  =========================
+# ** Note: TESTBENCH => 4. Block wird an snr_est gesendet
+#    Time: 59550 ns  Iteration: 1  Instance: /tb_snr_est
+# ** Note: TESTBENCH => Berechnung SNR-Verhaeltnis nicht moeglich (Division durch 0 d.h. Pr = Ps). Das ist korrekt beim 2. und 3. Block der Testdaten
+#    Time: 85250 ns  Iteration: 0  Instance: /tb_snr_est
+
+psf 65280
+prf 8355840
+num 255
+SNR nicht definiert -> Korrekt
+
+#  =========================
+# ** Note: TESTBENCH => 5. Block wird an snr_est gesendet
+#    Time: 111950 ns  Iteration: 1  Instance: /tb_snr_est
+# TESTBENCH => Berechneter SNR-Wert: 5.862657e+00 dB
+
+psf, prf, num wie bei 1
+
+#  =========================
+# ** Note: TESTBENCH => 6. Block wird an snr_est gesendet
+#    Time: 113950 ns  Iteration: 1  Instance: /tb_snr_est
+# TESTBENCH => Berechneter SNR-Wert: 6.288875e+00 dB
+
+psf 35351
+prf 3026277
+num 255
+SNR korrekt
+
+#  =========================
+# ** Note: TESTBENCH => 7. Block wird an snr_est gesendet
+#    Time: 165350 ns  Iteration: 1  Instance: /tb_snr_est
+# TESTBENCH => Berechneter SNR-Wert: 5.862657e+00 dB
+
+psf, prf, num wie bei 1
+
+#  =========================
+# ** Note: TESTBENCH => 8. Block wird an snr_est gesendet
+#    Time: 167550 ns  Iteration: 1  Instance: /tb_snr_est
+# TESTBENCH => Berechneter SNR-Wert: 5.862657e+00 dB
+
+psf, prf, num wie bei 1
+
+#  =========================
+# ** Note: TESTBENCH => 9. Block wird an snr_est gesendet
+#    Time: 169850 ns  Iteration: 1  Instance: /tb_snr_est
+# TESTBENCH => Berechneter SNR-Wert: 7.060333e+00 dB
+
+psf 13113
+prf 1196431
+num 86
+SNR korrekt
+
+#  =========================
+# ** Failure: TESTBENCH => Simulation planmaessig beendet! Alle Resultate sind noch zu ueberpruefen

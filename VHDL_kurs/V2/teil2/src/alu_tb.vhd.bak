@@ -1,0 +1,42 @@
+-- Gruppe 301
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity alu_tb is
+end alu_tb;
+
+architecture sim of alu_tb is
+    component alu
+        port(
+            operation    : in  std_logic_vector(2 downto 0):= "000";
+            a,b          : in  std_logic_vector(7 downto 0):= "00000000"; -- 7 bis 0 für 8 Bit
+            resultat     : out std_logic_vector(8 downto 0):= "000000000"
+            );
+    end component;
+    signal t_op         : std_logic_vector(2 downto 0); 
+    signal t_a          : std_logic_vector(7 downto 0);
+    signal t_b          : std_logic_vector(7 downto 0);
+    signal t_res        : std_logic_vector(8 downto 0);
+--    constant CLK_PERIOD : time := 10ns;
+    
+begin
+    dut: alu port map (operation => t_op, a => t_a, b => t_b, resultat => t_res);
+    
+    stimuli: process
+    begin
+        t_op <= "000"; -- operation auf 0
+        wait for 100 ns;
+        t_a  <= "11111110"; -- -2
+        t_b  <= "00001010"; -- 2
+        t_op <= "100"; -- bitwise and, res --> '00000001'
+        wait for 100 ns;
+        t_op <= "101"; -- bitwise or, res --> '00000011'
+        wait for 100 ns;
+    end process stimuli;
+--    clk_gen : process (clk)
+--    begin
+--       clk <= not clk after CLK_PERIOD / 2;
+--    end process clk_gen;
+-- obervation checking for results (optional)
+end sim;

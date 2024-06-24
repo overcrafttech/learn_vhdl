@@ -1,0 +1,62 @@
+# //  ModelSim SE-64 2019.1 Jan  1 2019 Linux 3.10.0-1160.95.1.el7.x86_64
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project dsp_tb
+# Compile of dsp_1.vhd was successful.
+# Compile of dsp_2.vhd was successful.
+# Compile of dsp_tb.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.dsp_tb
+# vsim work.dsp_tb 
+# Start time: 16:03:02 on Jan 22,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_tb.vhd(65): (vopt-3473) Component instance "/dsp_tb/comp_dsp_2 : dsp_2" is not bound.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.dsp_tb(sim)#1
+# ** Warning: (vsim-3473) Component instance "comp_dsp_2 : dsp_2" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dsp_tb File: /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_tb.vhd
+quit -sim
+# End time: 16:03:18 on Jan 22,2024, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 2
+# Compile of dsp_1.vhd was successful.
+# Compile of dsp_2.vhd was successful.
+# Compile of dsp_tb.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.dsp_tb
+# vsim work.dsp_tb 
+# Start time: 16:04:08 on Jan 22,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.dsp_tb(sim)#1
+add wave  \
+sim:/dsp_tb/clk_tb \
+sim:/dsp_tb/rst_tb \
+sim:/dsp_tb/data_re_tb \
+sim:/dsp_tb/data_im_tb \
+sim:/dsp_tb/data_valid_tb \
+sim:/dsp_tb/start_tb \
+sim:/dsp_tb/result_dsp_1 \
+sim:/dsp_tb/result_dsp_2
+run 2000 ns
+# ** Failure: Simulation beendet
+#    Time: 1700 ns  Iteration: 0  Process: /dsp_tb/check File: /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_tb.vhd
+# Break in Process check at /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_tb.vhd line 128
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/tb_wave.do
+# End time: 16:07:58 on Jan 22,2024, Elapsed time: 0:03:50
+# Errors: 6, Warnings: 0

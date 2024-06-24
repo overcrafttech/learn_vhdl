@@ -1,0 +1,67 @@
+m255
+K4
+z2
+!s11f vlog 2019.1 2019.01, Jan  1 2019
+!s11e vcom 2019.1 2019.01, Jan  1 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/labor/digilab1/digilab1_301/VHDL_kurs/V1/teil3/src
+T_opt
+!s110 1700750786
+VgY8ISgkRX[2clzD<H]JOJ3
+Z1 04 7 8 work complex abstract 1
+=1-3448edf80653-655f65c2-100c4-2f068
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2019.1;69
+R0
+T_opt1
+!s110 1700751282
+VW]XZ`>zW]Kkdnhlh3>S=<1
+R1
+=1-3448edf80653-655f67b2-32bec-2f174
+R2
+R3
+n@_opt1
+R4
+R0
+Ecomplex
+Z5 w1700750655
+Z6 d/home/labor/digilab1/digilab1_301/VHDL_kurs/V1/test/src
+Z7 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V1/test/src/multiplizierer.vhd
+Z8 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V1/test/src/multiplizierer.vhd
+l0
+L1
+V2jQk7335[<_n`2J?JC;<<1
+!s100 nC>ofYh[`=o<a1U19Co>j3
+Z9 OL;C;2019.1;69
+32
+Z10 !s110 1700751448
+!i10b 1
+Z11 !s108 1700751448.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V1/test/src/multiplizierer.vhd|
+Z13 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V1/test/src/multiplizierer.vhd|
+!i113 0
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Aabstract
+Z16 DEx4 work 7 complex 0 22 2jQk7335[<_n`2J?JC;<<1
+l8
+L7
+Z17 V@kG?Q[2<KQi:3gn?zIzz`1
+Z18 !s100 [9=];GT1FH=]OUR;_YERh1
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15

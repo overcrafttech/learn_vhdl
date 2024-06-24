@@ -1,0 +1,37 @@
+/home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/ampel_sm.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/ampel_sm.vhd
+Model Technology ModelSim SE-64 vcom 2019.1 Compiler 2019.01 Jan  1 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ampel_sm
+-- Compiling architecture behavioral of ampel_sm
+
+} {} {}} /home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/testbench_ampel_top.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/testbench_ampel_top.vhd
+Model Technology ModelSim SE-64 vcom 2019.1 Compiler 2019.01 Jan  1 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity testbench_ampel_top
+-- Compiling architecture sim of testbench_ampel_top
+
+} {} {}} /home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/timer.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/timer.vhd
+Model Technology ModelSim SE-64 vcom 2019.1 Compiler 2019.01 Jan  1 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity timer
+-- Compiling architecture behavioral of timer
+
+} {} {}} /home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/ampel_top.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/labor/digilab1/digilab1_301/VHDL_kurs/V4/src/ampel_top.vhd
+Model Technology ModelSim SE-64 vcom 2019.1 Compiler 2019.01 Jan  1 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ampel_top
+-- Compiling architecture ampel_top_arch of ampel_top
+
+} {} {}}

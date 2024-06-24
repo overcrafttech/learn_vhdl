@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Jan 10 15:03:02 2024
+# Process ID: 204340
+# Current directory: /home/labor/digilab1/digilab1_301/VHDL_kurs/V4/ampel_vivado/ampel_vivado.runs/synth_1
+# Command line: vivado -log ampel_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ampel_top.tcl
+# Log file: /home/labor/digilab1/digilab1_301/VHDL_kurs/V4/ampel_vivado/ampel_vivado.runs/synth_1/ampel_top.vds
+# Journal file: /home/labor/digilab1/digilab1_301/VHDL_kurs/V4/ampel_vivado/ampel_vivado.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source ampel_top.tcl -notrace

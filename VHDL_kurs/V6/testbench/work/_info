@@ -1,0 +1,198 @@
+m255
+K4
+z2
+!s11e vcom 2019.1 2019.01, Jan  1 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/labor/digilab1/digilab1_301/VHDL_kurs/V6/testbench
+T_opt
+!s110 1707151043
+V:B@8D_S0Wi0IFin>_[ZAo1
+Z1 04 10 3 work tb_snr_est sim 1
+=5-3448edf80653-65c10ec3-468d8-a020
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2019.1;69
+T_opt1
+!s110 1706799974
+V?<Zo:f[g=1P18`z9FXI9d2
+R1
+=1-3448edf80653-65bbb365-dcb88-13b45
+o-quiet -auto_acc_if_foreign -work work
+R2
+n@_opt1
+R3
+R0
+Egen_dp_bram_aew_ber
+Z4 w1698409245
+Z5 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z6 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z9 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V6/src/gen_dp_bram_aew_ber.vhd
+Z10 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V6/src/gen_dp_bram_aew_ber.vhd
+l0
+L41
+V[b_fZ]QBG7cL1d>DXDRV>0
+!s100 f3G8gNbAP<f=mT1DDoXD00
+Z11 OL;C;2019.1;69
+32
+Z12 !s110 1707151039
+!i10b 1
+Z13 !s108 1707151039.000000
+Z14 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V6/src/gen_dp_bram_aew_ber.vhd|
+Z15 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V6/src/gen_dp_bram_aew_ber.vhd|
+!i113 0
+Z16 o-work work -2002 -explicit
+Z17 tExplicit 1 CvgOpt 0
+Asyn
+R5
+R6
+R7
+R8
+DEx4 work 19 gen_dp_bram_aew_ber 0 22 [b_fZ]QBG7cL1d>DXDRV>0
+l62
+L58
+V>FNc?dZ;;S>1XdjcN@D5K0
+!s100 4W9QV3gmA;Dj`i9RUS:Td1
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Eram_samples_255x16
+Z18 w1706262681
+R7
+R8
+R0
+Z19 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V6/src/ram_samples_255x16.vhd
+Z20 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V6/src/ram_samples_255x16.vhd
+l0
+L26
+VSFPSU9[OjT7AI^>Qo=GA73
+!s100 8ekIS]g0KTeN?WSe0h3;?3
+R11
+32
+R12
+!i10b 1
+R13
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V6/src/ram_samples_255x16.vhd|
+Z22 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V6/src/ram_samples_255x16.vhd|
+!i113 0
+R16
+R17
+Awrapper
+R7
+R8
+DEx4 work 18 ram_samples_255x16 0 22 SFPSU9[OjT7AI^>Qo=GA73
+l58
+L39
+V_BIKkJ7B8Z_IlHMGd2o0D2
+!s100 E2KzZ^mVWSlg3Q^O14:YW0
+R11
+32
+R12
+!i10b 1
+R13
+R21
+R22
+!i113 0
+R16
+R17
+Esnr_est
+Z23 w1707151026
+Z24 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R7
+R8
+R0
+Z25 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V6/src/snr_est.vhd
+Z26 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V6/src/snr_est.vhd
+l0
+L58
+V50ZZ@W6lzU<L21O@Poan]2
+!s100 1@Nz2Vb>DOm3^05I`lI`b2
+R11
+32
+R12
+!i10b 1
+R13
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V6/src/snr_est.vhd|
+Z28 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V6/src/snr_est.vhd|
+!i113 0
+R16
+R17
+Artl
+R24
+R7
+R8
+DEx4 work 7 snr_est 0 22 50ZZ@W6lzU<L21O@Poan]2
+l149
+L90
+VB5WeijnZ7@Hz<Qk[B92@h3
+!s100 NiHzKfk7TM^m93@PlV?<E3
+R11
+32
+R12
+!i10b 1
+R13
+R27
+R28
+!i113 0
+R16
+R17
+Etb_snr_est
+R4
+Z29 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z30 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R24
+R7
+R8
+R0
+Z31 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V6/testbench/tb_snr_est.vhd
+Z32 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V6/testbench/tb_snr_est.vhd
+l0
+L50
+VgT`0JEAMBPQ00WlBBEAco3
+!s100 ZEY:SQ<HYG:MkQebbXOaK3
+R11
+32
+R12
+!i10b 1
+R13
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V6/testbench/tb_snr_est.vhd|
+Z34 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V6/testbench/tb_snr_est.vhd|
+!i113 0
+R16
+R17
+Asim
+R29
+R30
+R24
+R7
+R8
+DEx4 work 10 tb_snr_est 0 22 gT`0JEAMBPQ00WlBBEAco3
+l121
+L58
+VB;9Q>3Fz:ONhBjhjQH_aY2
+!s100 [>F1Hz<o<M`lKFho@nlK?1
+R11
+32
+R12
+!i10b 1
+R13
+R33
+R34
+!i113 0
+R16
+R17

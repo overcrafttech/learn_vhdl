@@ -1,0 +1,153 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src
+T_opt
+!s110 1706102484
+V7nTYLLT0occ[2o@zLoK@N1
+Z1 04 6 3 work dsp_tb sim 1
+=3-3448edf80653-65b10ed3-e772b-1a1e6
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2019.1;69
+R0
+T_opt1
+!s110 1706185479
+VAX70RGg<`>ZzYL[o6HNlg3
+R1
+=7-3448edf80653-65b25306-de133-24056
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+Edsp_1
+Z4 w1706184323
+Z5 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z8 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_1.vhd
+Z9 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_1.vhd
+l0
+L5
+VTcNgI?P>`iEbfmdZC@jT21
+!s100 h6nnS;Xa2NJ5Ja`gVzJza0
+Z10 OL;C;2019.1;69
+32
+Z11 !s110 1706185473
+!i10b 1
+Z12 !s108 1706185473.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_1.vhd|
+Z14 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_1.vhd|
+!i113 0
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Abehavioral
+R5
+R6
+R7
+DEx4 work 5 dsp_1 0 22 TcNgI?P>`iEbfmdZC@jT21
+l19
+L17
+VR]lE>T4dSKT_LbM`YM<Z33
+!s100 6I7B0hCVSDOPE_b4TfIzF0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Edsp_2
+Z17 w1706184681
+R5
+R6
+R7
+R0
+Z18 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_2.vhd
+Z19 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_2.vhd
+l0
+L5
+VUk[A=i@dQ6h=2Ed4D:_FN3
+!s100 Fo_898XGB::GiLQUhdVg:2
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_2.vhd|
+Z21 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_2.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R5
+R6
+R7
+DEx4 work 5 dsp_2 0 22 Uk[A=i@dQ6h=2Ed4D:_FN3
+l21
+L17
+VA1XinM;I[fjVM;NgA=@d:3
+!s100 iS3f2]eZY]77dkTXzlKh00
+R10
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 0
+R15
+R16
+Edsp_tb
+Z22 w1706185464
+R5
+R6
+R7
+R0
+Z23 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_tb.vhd
+Z24 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_tb.vhd
+l0
+L5
+VV^Z3oAf4GWdk;XKJ[aO<63
+!s100 GNQmD5fU39dW1kjWQ3:O=1
+R10
+32
+R11
+!i10b 1
+R12
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_tb.vhd|
+Z26 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_tb.vhd|
+!i113 0
+R15
+R16
+Asim
+R5
+R6
+R7
+DEx4 work 6 dsp_tb 0 22 V^Z3oAf4GWdk;XKJ[aO<63
+l44
+L8
+VX^S7hJ3oT1K^>HoGz52hZ0
+!s100 29D7mAFhGi^`B>cP?_V>G3
+R10
+32
+R11
+!i10b 1
+R12
+R25
+R26
+!i113 0
+R15
+R16

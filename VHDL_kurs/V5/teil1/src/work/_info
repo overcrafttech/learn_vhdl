@@ -1,0 +1,245 @@
+m255
+K4
+z2
+!s11e vcom 2019.1 2019.01, Jan  1 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/src
+T_opt
+!s110 1705926445
+VKn_5SI`[<0lcbH^S40:Um0
+Z1 04 14 3 work alarmanlage_tb sim 1
+=6-3448edf80653-65ae5f2d-741aa-27427
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2019.1;69
+R0
+T_opt1
+!s110 1705766648
+Vj@X5ICTW`i[5LPTcT`N0X1
+04 8 10 work alarm_1p behavioral 1
+=1-3448edf80653-65abeef8-29cb3-37469
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1706097734
+V?ZTd>HNZVJ3?67<G5WS`h0
+R1
+=1-3448edf80653-65b0fc46-6e0b0-10bf1
+R2
+R3
+n@_opt2
+R4
+Ealarm_1p
+Z5 w1705773998
+Z6 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z9 d/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src
+Z10 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/alarm_1p.vhd
+Z11 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/alarm_1p.vhd
+l0
+L5
+VOP0@jI=9P<_FhU0=HdQDk2
+!s100 ZP63@iQLQ32oja0;^OI;K0
+Z12 OL;C;2019.1;69
+32
+Z13 !s110 1706097724
+!i10b 1
+Z14 !s108 1706097724.000000
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/alarm_1p.vhd|
+Z16 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/alarm_1p.vhd|
+!i113 0
+Z17 o-work work -2002 -explicit
+Z18 tExplicit 1 CvgOpt 0
+Abehavioral
+R6
+R7
+R8
+DEx4 work 8 alarm_1p 0 22 OP0@jI=9P<_FhU0=HdQDk2
+l41
+L16
+VFzngkLGIa6E2zY^CP0KXc0
+!s100 O]ENgm3jM4ikh^EiD`coB2
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Ealarm_mp
+Z19 w1705774284
+R6
+R7
+R8
+R9
+Z20 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/alarm_mp.vhd
+Z21 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/alarm_mp.vhd
+l0
+L5
+VLi3lReg6^7I[d1NIziXeo1
+!s100 >R7WKc1l0gmdHKjMKKUJ21
+R12
+32
+R13
+!i10b 1
+R14
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/alarm_mp.vhd|
+Z23 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/alarm_mp.vhd|
+!i113 0
+R17
+R18
+Abehavioral
+R6
+R7
+R8
+DEx4 work 8 alarm_mp 0 22 Li3lReg6^7I[d1NIziXeo1
+l42
+L17
+VOTIb7?0V6GQ21NzW3c]=R1
+!s100 JHnmnRJjLRSf?o]dIH1D`2
+R12
+32
+R13
+!i10b 1
+R14
+R22
+R23
+!i113 0
+R17
+R18
+Ealarm_ttb
+Z24 w1705659868
+R6
+R7
+R8
+R0
+Z25 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/src/alarmanlage_tb.vhd
+Z26 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/src/alarmanlage_tb.vhd
+l0
+L5
+VAE@A1Amcjh22F>zlFULjl1
+!s100 <Z3C]1D36Q<4lz0G;3UHN3
+R12
+32
+Z27 !s110 1705766212
+!i10b 1
+Z28 !s108 1705766212.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/src/alarmanlage_tb.vhd|
+Z30 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/src/alarmanlage_tb.vhd|
+!i113 0
+R17
+R18
+Asim
+R6
+R7
+R8
+DEx4 work 9 alarm_ttb 0 22 AE@A1Amcjh22F>zlFULjl1
+l30
+L8
+VCMDe;hdaS:VL]m[zDdLNn3
+!s100 OJWRVFO24jKT^IBNcL:Ha3
+R12
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 0
+R17
+R18
+Ealarmanlage_tb
+Z31 w1705926524
+R6
+R7
+R8
+R9
+Z32 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/alarmanlage_tb.vhd
+Z33 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/alarmanlage_tb.vhd
+l0
+L5
+VMd`8HVl>F^S;R>=z2=U1]2
+!s100 =eW9P>T4O0;6:VRcMLP4j1
+R12
+32
+R13
+!i10b 1
+R14
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/alarmanlage_tb.vhd|
+Z35 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/alarmanlage_tb.vhd|
+!i113 0
+R17
+R18
+Asim
+R6
+R7
+R8
+DEx4 work 14 alarmanlage_tb 0 22 Md`8HVl>F^S;R>=z2=U1]2
+l41
+L8
+Vh22_b`]_0FZoIAlQ[Lj[J1
+!s100 ^mkZADZ`VhcVVH1@n5d0:3
+R12
+32
+R13
+!i10b 1
+R14
+R34
+R35
+!i113 0
+R17
+R18
+Epcu
+Z36 w1705652580
+R6
+R7
+R8
+R9
+Z37 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/pcu.vhd
+Z38 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/pcu.vhd
+l0
+L5
+VKDd0>IEn]hfB1O@KLk0W@1
+!s100 @Ko:aCoIiG1f^H0STMVPJ3
+R12
+32
+R13
+!i10b 1
+R14
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/pcu.vhd|
+Z40 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/pcu.vhd|
+!i113 0
+R17
+R18
+Abehavior
+R6
+R7
+R8
+DEx4 work 3 pcu 0 22 KDd0>IEn]hfB1O@KLk0W@1
+l20
+L17
+VBB1zHZHC==?mko:3mi]:H1
+!s100 _gRY7UCEMmz9AC:5VbOlY3
+R12
+32
+R13
+!i10b 1
+R14
+R39
+R40
+!i113 0
+R17
+R18

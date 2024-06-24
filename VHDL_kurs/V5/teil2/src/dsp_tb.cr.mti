@@ -1,0 +1,19 @@
+/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_1.vhd
+Model Technology ModelSim SE-64 vcom 2019.1 Compiler 2019.01 Jan  1 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dsp_1
+-- Compiling architecture behavioral of dsp_1
+
+} {} {}} /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_2.vhd
+Model Technology ModelSim SE-64 vcom 2019.1 Compiler 2019.01 Jan  1 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dsp_2
+-- Compiling architecture behavioral of dsp_2
+
+} {} {}}

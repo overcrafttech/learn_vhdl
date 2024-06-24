@@ -1,0 +1,334 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Jan 22 16:31:53 2024
+# Process ID: 270314
+# Current directory: /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/vivado/alarmanlage_mp/alarmanlage_mp.runs/synth_1
+# Command line: vivado -log alarm_mp.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source alarm_mp.tcl
+# Log file: /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/vivado/alarmanlage_mp/alarmanlage_mp.runs/synth_1/alarm_mp.vds
+# Journal file: /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/vivado/alarmanlage_mp/alarmanlage_mp.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source alarm_mp.tcl -notrace
+Command: synth_design -top alarm_mp -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 484 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1525.293 ; gain = 85.902 ; free physical = 97846 ; free virtual = 113825
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'alarm_mp' [/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/alarm_mp.vhd:17]
+INFO: [Synth 8-3491] module 'pcu' declared at '/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/pcu.vhd:5' bound to instance 'pcu_component' of component 'pcu' [/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/alarm_mp.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'pcu' [/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/pcu.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'pcu' (1#1) [/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/pcu.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'alarm_mp' (2#1) [/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/alarm_mp.vhd:17]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1570.051 ; gain = 130.660 ; free physical = 97738 ; free virtual = 113717
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1570.051 ; gain = 130.660 ; free physical = 97730 ; free virtual = 113710
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1570.051 ; gain = 130.660 ; free physical = 97730 ; free virtual = 113710
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/vivado/alarm_1p.xdc]
+Finished Parsing XDC File [/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/vivado/alarm_1p.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1932.016 ; gain = 0.000 ; free physical = 97888 ; free virtual = 113867
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1932.016 ; gain = 0.000 ; free physical = 97887 ; free virtual = 113865
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1932.016 ; gain = 0.000 ; free physical = 97887 ; free virtual = 113865
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1932.016 ; gain = 492.625 ; free physical = 97921 ; free virtual = 113899
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1932.016 ; gain = 492.625 ; free physical = 97920 ; free virtual = 113898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1932.016 ; gain = 492.625 ; free physical = 97919 ; free virtual = 113897
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'jump_pcu_reg' into 'stop_pcu_reg' [/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/src/alarm_mp.vhd:48]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'alarm_mp'
+INFO: [Synth 8-5546] ROM "state_nxt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "load_pcu" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_nxt" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                     off |                              000 |                              000
+                    idle |                              001 |                              001
+                     run |                              010 |                              010
+              door_close |                              011 |                              100
+             alarm_state |                              100 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'alarm_mp'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1932.016 ; gain = 492.625 ; free physical = 97885 ; free virtual = 113864
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module alarm_mp 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module pcu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'loadvalue_pcu_reg[14]' (FDRE) to 'stop_pcu_reg'
+INFO: [Synth 8-3886] merging instance 'loadvalue_pcu_reg[15]' (FDRE) to 'stop_pcu_reg'
+INFO: [Synth 8-3886] merging instance 'loadvalue_pcu_reg[13]' (FDRE) to 'stop_pcu_reg'
+INFO: [Synth 8-3886] merging instance 'loadvalue_pcu_reg[12]' (FDRE) to 'stop_pcu_reg'
+INFO: [Synth 8-3886] merging instance 'loadvalue_pcu_reg[11]' (FDRE) to 'stop_pcu_reg'
+INFO: [Synth 8-3886] merging instance 'loadvalue_pcu_reg[10]' (FDRE) to 'stop_pcu_reg'
+INFO: [Synth 8-3886] merging instance 'loadvalue_pcu_reg[9]' (FDRE) to 'stop_pcu_reg'
+INFO: [Synth 8-3886] merging instance 'loadvalue_pcu_reg[8]' (FDRE) to 'stop_pcu_reg'
+INFO: [Synth 8-3886] merging instance 'loadvalue_pcu_reg[7]' (FDRE) to 'stop_pcu_reg'
+INFO: [Synth 8-3886] merging instance 'loadvalue_pcu_reg[6]' (FDRE) to 'stop_pcu_reg'
+INFO: [Synth 8-3886] merging instance 'loadvalue_pcu_reg[5]' (FDRE) to 'stop_pcu_reg'
+INFO: [Synth 8-3886] merging instance 'loadvalue_pcu_reg[4]' (FDRE) to 'stop_pcu_reg'
+INFO: [Synth 8-3886] merging instance 'loadvalue_pcu_reg[0]' (FDRE) to 'stop_pcu_reg'
+INFO: [Synth 8-3886] merging instance 'loadvalue_pcu_reg[1]' (FDRE) to 'stop_pcu_reg'
+INFO: [Synth 8-3886] merging instance 'loadvalue_pcu_reg[2]' (FDRE) to 'stop_pcu_reg'
+INFO: [Synth 8-3886] merging instance 'loadvalue_pcu_reg[3]' (FDRE) to 'stop_pcu_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (stop_pcu_reg)
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1932.016 ; gain = 492.625 ; free physical = 97766 ; free virtual = 113746
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1932.016 ; gain = 492.625 ; free physical = 97748 ; free virtual = 113730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1932.016 ; gain = 492.625 ; free physical = 97747 ; free virtual = 113728
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1932.016 ; gain = 492.625 ; free physical = 97746 ; free virtual = 113728
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1932.016 ; gain = 492.625 ; free physical = 97736 ; free virtual = 113718
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1932.016 ; gain = 492.625 ; free physical = 97736 ; free virtual = 113718
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1932.016 ; gain = 492.625 ; free physical = 97736 ; free virtual = 113718
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1932.016 ; gain = 492.625 ; free physical = 97736 ; free virtual = 113718
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1932.016 ; gain = 492.625 ; free physical = 97736 ; free virtual = 113718
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1932.016 ; gain = 492.625 ; free physical = 97736 ; free virtual = 113718
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     4|
+|3     |LUT2   |     1|
+|4     |LUT3   |     1|
+|5     |LUT4   |    17|
+|6     |LUT5   |     3|
+|7     |LUT6   |     4|
+|8     |FDRE   |    19|
+|9     |IBUF   |     5|
+|10    |OBUF   |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------+-------+------+
+|      |Instance        |Module |Cells |
++------+----------------+-------+------+
+|1     |top             |       |    56|
+|2     |  pcu_component |pcu    |    43|
++------+----------------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1932.016 ; gain = 492.625 ; free physical = 97736 ; free virtual = 113718
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1932.016 ; gain = 130.660 ; free physical = 97790 ; free virtual = 113772
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 1932.016 ; gain = 492.625 ; free physical = 97790 ; free virtual = 113772
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1932.020 ; gain = 0.000 ; free physical = 97730 ; free virtual = 113711
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+39 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1932.020 ; gain = 504.176 ; free physical = 97784 ; free virtual = 113766
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1932.020 ; gain = 0.000 ; free physical = 97784 ; free virtual = 113766
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil1/vivado/alarmanlage_mp/alarmanlage_mp.runs/synth_1/alarm_mp.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file alarm_mp_utilization_synth.rpt -pb alarm_mp_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 22 16:32:24 2024...

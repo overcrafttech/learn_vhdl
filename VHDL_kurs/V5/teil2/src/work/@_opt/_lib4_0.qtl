@@ -1,0 +1,340 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src
+T_opt
+!s110 1706102484
+V7nTYLLT0occ[2o@zLoK@N1
+04 6 3 work dsp_tb sim 1
+=3-3448edf80653-65b10ed3-e772b-1a1e6
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;2019.1;69
+Edsp_1
+Z1 w1706101528
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z5 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_1.vhd
+Z6 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_1.vhd
+l0
+L5
+VTcNgI?P>`iEbfmdZC@jT21
+!s100 h6nnS;Xa2NJ5Ja`gVzJza0
+Z7 OL;C;2019.1;69
+32
+Z8 !s110 1706102473
+!i10b 1
+Z9 !s108 1706102473.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_1.vhd|
+Z11 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_1.vhd|
+!i113 0
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 5 dsp_1 0 22 TcNgI?P>`iEbfmdZC@jT21
+l20
+L17
+VM0mz4z_9_[hVb3cofOKZ21
+!s100 3[^YJlK;:1TU41V4oPlbA0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Edsp_2
+Z14 w1706102467
+R2
+R3
+R4
+R0
+Z15 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_2.vhd
+Z16 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_2.vhd
+l0
+L5
+VUk[A=i@dQ6h=2Ed4D:_FN3
+!s100 Fo_898XGB::GiLQUhdVg:2
+R7
+32
+Z17 !s110 1706102474
+!i10b 1
+Z18 !s108 1706102474.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_2.vhd|
+Z20 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_2.vhd|
+!i113 0
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 5 dsp_2 0 22 Uk[A=i@dQ6h=2Ed4D:_FN3
+l22
+L17
+V5M5b`faPBKYFK[Vh35lTX2
+!s100 hW;W<ojfK^062R6Ni2lCm3
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R12
+R13
+Edsp_tb
+Z21 w1706100931
+R2
+R3
+R4
+R0
+Z22 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_tb.vhd
+Z23 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_tb.vhd
+l0
+L5
+VV^Z3oAf4GWdk;XKJ[aO<63
+!s100 GNQmD5fU39dW1kjWQ3:O=1
+R7
+32
+R17
+!i10b 1
+R18
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_tb.vhd|
+Z25 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V5/teil2/src/dsp_tb.vhd|
+!i113 0
+R12
+R13
+Asim
+R2
+R3
+R4
+DEx4 work 6 dsp_tb 0 22 V^Z3oAf4GWdk;XKJ[aO<63
+l44
+L8
+V1MPP]>d2PXi46?<lPQYcD3
+!s100 Tf`NO^QRh]jnOgF4?[YGn3
+R7
+32
+R17
+!i10b 1
+R18
+R24
+R25
+!i113 0
+R12
+R13
+src/vital2000/prmtvs_p_2000.vhd|
+!s107 vhdl_src/vital2000/prmtvs_p_2000.vhd|
+!i113 1
+R97
+R14
+Bbody
+DPx4 work 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+R96
+R21
+R20
+31
+R27
+!i10b 1
+R3
+R4
+8vhdl_src/vital2000/prmtvs_b_2000.vhd
+Fvhdl_src/vital2000/prmtvs_b_2000.vhd
+l0
+L33
+VL8@OL8nfVkLF;7TL8_DPa1
+!s100 L8@OL8nfVkLF;7TL8_DPa1
+R9
+R10
+!s90 -debug|-suppress|12110|-93|-work|ieee|-novital|-dirpath|$MODEL_TECH/..|vhdl_src/vital2000/prmtvs_b_2000.vhd|
+!s107 vhdl_src/vital2000/prmtvs_b_2000.vhd|
+!i113 1
+R97
+R14
+Pvital_timing
+R21
+R20
+31
+b1
+R2
+!i10b 1
+R3
+b1
+R4
+b1
+R5
+R6
+8vhdl_src/vital2000/timing_p_2000.vhd
+Fvhdl_src/vital2000/timing_p_2000.vhd
+l0
+L70
+VJ>EBealN09f8GzldA[z2>3
+!s100 J>EBealN09f8GzldA[z2>3
+R9
+b1
+R10
+!s90 -debug|-suppress|12110|-93|-work|ieee|-novital|-dirpath|$MODEL_TECH/..|vhdl_src/vital2000/timing_p_2000.vhd|
+!s107 vhdl_src/vital2000/timing_p_2000.vhd|
+!i113 1
+R97
+R14
+Bbody
+DPx4 work 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+R21
+R20
+31
+R2
+!i10b 1
+R3
+R4
+8vhdl_src/vital2000/timing_b_2000.vhd
+Fvhdl_src/vital2000/timing_b_2000.vhd
+l0
+L49
+VKEim8d[eJ5dE^:mEG0P3S0
+!s100 KEim8d[eJ5dE^:mEG0P3S0
+R9
+R10
+!s90 -debug|-suppress|12110|-93|-work|ieee|-novital|-dirpath|$MODEL_TECH/..|vhdl_src/vital2000/timing_b_2000.vhd|
+!s107 vhdl_src/vital2000/timing_b_2000.vhd|
+!i113 1
+R97
+R14
+m255
+K4
+z2
+!s8c locked
+!s11e vcom 2019.1 2019.01, Jan  1 2019
+!s95 MTI
+cModel Technology Builtin Library
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+d/u/qa/buildsites/2019.p/builds/linux/modeltech
+Penv
+32
+b1
+Z0 !s110 1546404029
+!i10b 1
+Z1 OL;C;2019.1;69
+b1
+Z2 OP;C;2019.1;69
+b1
+Z3 w1546402894
+Z4 d$MODEL_TECH/..
+Z5 8vhdl_src/std/env.vhd
+Z6 Fvhdl_src/std/env.vhd
+l0
+L1
+Vd?`1ck@NdeD@H3RZG7FgZ2
+!s100 d?`1ck@NdeD@H3RZG7FgZ2
+Z7 OE;C;2019.1;69
+b1
+Z8 !s108 1546404029.000000
+Z9 !s90 -debug|-suppress|12110|-work|std|-dirpath|$MODEL_TECH/..|vhdl_src/std/env.vhd|
+Z10 !s107 vhdl_src/std/env.vhd|
+!i113 1
+Z11 o-suppress 12110 -debug -work std -dirpath {$MODEL_TECH/..}
+Z12 tExplicit 1 CvgOpt 0
+Bbody
+DPx4 work 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+32
+R0
+!i10b 1
+R1
+R2
+l0
+L15
+VGO=IeNa]6JLe2BRN4G<kA2
+!s100 GO=IeNa]6JLe2BRN4G<kA2
+R7
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Pstandard
+33
+R0
+!i10b 1
+R1
+R2
+R3
+R4
+8vhdl_src/std/standard.vhd
+Fvhdl_src/std/standard.vhd
+l0
+L8
+VofRa6alAEoSE^5WcJ^O]C2
+!s100 ofRa6alAEoSE^5WcJ^O]C2
+R7
+!s108 1546404028.000000
+!s90 -debug|-suppress|12110|-s|-2008|-work|std|-dirpath|$MODEL_TECH/..|vhdl_src/std/standard.vhd|
+!s107 vhdl_src/std/standard.vhd|
+!i113 1
+o-suppress 12110 -debug -s -2008 -work std -dirpath {$MODEL_TECH/..}
+R12
+Ptextio
+33
+b1
+R0
+!i10b 1
+R1
+b1
+R2
+b1
+Z13 w1546310146
+R4
+Z14 8vhdl_src/std/textio.vhd
+Z15 Fvhdl_src/std/textio.vhd
+l0
+L1
+VzE1`LPoLg^DX3Oz^4Fj1K3
+!s100 zE1`LPoLg^DX3Oz^4Fj1K3
+R7
+b1
+R8
+Z16 !s90 -debug|-suppress|12110|-2008|-work|std|-dirpath|$MODEL_TECH/..|vhdl_src/std/textio.vhd|
+Z17 !s107 vhdl_src/std/textio.vhd|
+!i113 1
+Z18 o-suppress 12110 -debug -2008 -work std -dirpath {$MODEL_TECH/..}
+R12
+Bbody
+DPx4 work 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+33
+R0
+!i10b 1
+R1
+R2
+l0
+L186
+VOBFf4Pj<FG4ZXfzD:k]VN1
+!s100 OBFf4Pj<FG4ZXfzD:k]VN1
+R7
+R8
+R16
+R17
+!i113 1
+R18
+R12

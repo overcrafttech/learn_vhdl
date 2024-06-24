@@ -1,0 +1,56 @@
+Register:
+	               23 Bit    Registers := 1     
+	                    -- i_prf
+	               16 Bit    Registers := 3     
+	                    -- i_psf
+	                    -- sum_qre_qim
+	                    -- dina
+	                9 Bit    Registers := 1    
+	                    -- sum_absre_absim
+	                8 Bit    Registers := 5     
+	                    -- addra
+	                    -- addrb 
+	                    -- i_num_symbols
+	                    -- max_num_symbols
+	                    -- RAM -- dob
+	                1 Bit    Registers := 6 
+	                    -- wea
+	                    -- ena
+	                    -- enb
+	                    -- i_out_reverse
+	                    -- data_valid_out
+	                    -- result_valid
+FSM mit State Signal:
+	Report Zeile 89 un 99
+	inferred FSM for state register 'state_reg' in module 'snr_est'
+arithmetische Elemente:
+Adders
+	    2 Input     23 Bit       Adders := 1   
+            -- i_prf  
+	    2 Input     16 Bit       Adders := 1   
+            -- i_psf
+			--sum_qre_qim // shared
+	    4 Input      9 Bit       Adders := 1   
+            -- sum_absre_absim
+	    2 Input      8 Bit       Adders := 3
+
+	    3 Input      8 Bit       Adders := 1 
+            -- addrb
+Miltiplexer: 
+	   4 Input     23 Bit        Muxes := 1     
+	   4 Input     16 Bit        Muxes := 3     
+	   2 Input      9 Bit        Muxes := 2     
+	   4 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   4 Input      8 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 8  
+LUTs:
+	260
+FFs:
+	128
+Slack:
+Worst Negative Slack:	6.465 ns
+Worst Hold Slack:		0.149 ns
+

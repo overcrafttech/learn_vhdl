@@ -1,0 +1,108 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil1/src
+T_opt
+!s110 1701261252
+VJzLGe8b[3F;DghQSa2a7P0
+04 3 9 work blu verhalten 1
+=1-3448edf80653-65672fc4-f526-19519
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2019.1;69
+R0
+T_opt1
+!s110 1702385291
+VI]:BzIVZ`MV2nDPJe>GD`2
+04 6 3 work blu_tb sim 1
+=1-3448edf80653-6578568b-193a5-6669
+R1
+R2
+n@_opt1
+R3
+Eblu
+Z4 w1701167192
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z7 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil1/src/blu.vhd
+Z8 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil1/src/blu.vhd
+l0
+L6
+VFLdi2LK@8Ze=DLL5N3mk=0
+!s100 VVUmN<LRYK[8J3eDh<_m[3
+Z9 OL;C;2019.1;69
+32
+Z10 !s110 1702385021
+!i10b 1
+Z11 !s108 1702385021.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil1/src/blu.vhd|
+Z13 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil1/src/blu.vhd|
+!i113 0
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Averhalten
+R5
+R6
+DEx4 work 3 blu 0 22 FLdi2LK@8Ze=DLL5N3mk=0
+l15
+L14
+V5F[azT22NRHgShEDfYX8i1
+!s100 Db[9:a4Rf@2ZFQmJ0H10@2
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Eblu_tb
+Z16 w1701862737
+R5
+R6
+R0
+Z17 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil1/src/blu_tb.vhd
+Z18 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil1/src/blu_tb.vhd
+l0
+L6
+VHf4^_gHRO_3n`KB4:?IB[3
+!s100 UDoC>_<7hmK[fnDR<kU[G3
+R9
+32
+R10
+!i10b 1
+R11
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil1/src/blu_tb.vhd|
+Z20 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil1/src/blu_tb.vhd|
+!i113 0
+R14
+R15
+Asim
+R5
+R6
+DEx4 work 6 blu_tb 0 22 Hf4^_gHRO_3n`KB4:?IB[3
+l23
+L9
+Vi<4fF^[?LN7Ii^12J?0?:2
+!s100 ;GfOEM0=P0XB6g<DDI67K2
+R9
+32
+R10
+!i10b 1
+R11
+R19
+R20
+!i113 0
+R14
+R15

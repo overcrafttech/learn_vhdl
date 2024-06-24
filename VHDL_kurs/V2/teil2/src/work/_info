@@ -1,0 +1,122 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil1/src
+T_opt
+!s110 1702385745
+V`fQC9KAB9j^jikJTeFa942
+04 6 3 work alu_tb sim 1
+=1-3448edf80653-65785851-26c28-69ed
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2019.1;69
+T_opt1
+!s110 1701346744
+VTK[6`2]Tm8HL68EmR6?l83
+Z4 04 3 9 work alu verhalten 1
+=6-3448edf80653-65687db8-34900-220e7
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1701344458
+VeY4KQ9m78kDK]kf[oZ5W50
+R4
+=1-3448edf80653-656874ca-79b43-2180f
+R1
+R2
+n@_opt2
+R3
+R0
+Ealu
+Z5 w1702028320
+Z6 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z9 d/home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil2/src
+Z10 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil2/src/alu.vhd
+Z11 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil2/src/alu.vhd
+l0
+L7
+V_?M45<d[9U6?gPn=RYlMh3
+!s100 YnO53Ne8f@M_?zhKGbiFc1
+Z12 OL;C;2019.1;69
+32
+Z13 !s110 1702029361
+!i10b 1
+Z14 !s108 1702029361.000000
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil2/src/alu.vhd|
+Z16 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil2/src/alu.vhd|
+!i113 0
+Z17 o-work work -2002 -explicit
+Z18 tExplicit 1 CvgOpt 0
+Averhalten
+R6
+R7
+R8
+DEx4 work 3 alu 0 22 _?M45<d[9U6?gPn=RYlMh3
+l18
+L15
+V`>6UjPF=Mc9`UMWhheoiJ3
+!s100 ^2Dk7Xj>]ga9ZZ;CC7Khm3
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Ealu_tb
+Z19 w1702029499
+R6
+R7
+R8
+R9
+Z20 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil2/src/alu_tb.vhd
+Z21 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil2/src/alu_tb.vhd
+l0
+L7
+VAcYoOQRJeeA:JK?NA@]AZ2
+!s100 ]THW1eOBdc4ZKjDVdK=;Z2
+R12
+32
+Z22 !s110 1702385722
+!i10b 1
+Z23 !s108 1702385722.000000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil2/src/alu_tb.vhd|
+Z25 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V2/teil2/src/alu_tb.vhd|
+!i113 0
+R17
+R18
+Asim
+R6
+R7
+R8
+DEx4 work 6 alu_tb 0 22 AcYoOQRJeeA:JK?NA@]AZ2
+l23
+L10
+VoL?WWiOHD4V=zX_1bL?5g0
+!s100 <kXdk395F;=gGHYd3johK0
+R12
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R17
+R18

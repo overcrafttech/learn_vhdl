@@ -1,0 +1,18 @@
+###EXTRAS###
+if a(0) = '1' then
+            a_s <= '1' & signed(a);
+            a_s(1) <= '0';
+          elsif a(0) = '0' then
+            a_s <= '0' & signed(a);
+          else
+            a_s <= 'X' & signed(a);
+          end if;
+          
+          if b(0) = '1' then
+            b_s <= '1' & signed(b);
+	    b_s(1) <= '0';
+          elsif b(0) = '0' then
+            b_s <= '0' & signed(b);
+          else
+            b_s <= 'X' & signed(b);
+          end if;

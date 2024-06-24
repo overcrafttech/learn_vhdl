@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11e vcom 2019.1 2019.01, Jan  1 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/labor/digilab1/digilab1_301/VHDL_kurs/V1/teil1
+T_opt
+!s110 1701461499
+V]ZfhN[M2g6immaHhM?W4T3
+04 7 8 work complex abstract 1
+=1-3448edf80653-656a3dfb-d2734-2dbb2
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;2019.1;69
+Ecomplex
+Z0 w1700752867
+Z1 d/home/labor/digilab1/digilab1_301/VHDL_kurs/V1/teil2/src
+Z2 8/home/labor/digilab1/digilab1_301/VHDL_kurs/V1/teil2/src/complex.vhd
+Z3 F/home/labor/digilab1/digilab1_301/VHDL_kurs/V1/teil2/src/complex.vhd
+l0
+L1
+V2jQk7335[<_n`2J?JC;<<1
+!s100 nC>ofYh[`=o<a1U19Co>j3
+Z4 OL;C;2019.1;69
+32
+Z5 !s110 1701461481
+!i10b 1
+Z6 !s108 1701461481.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/labor/digilab1/digilab1_301/VHDL_kurs/V1/teil2/src/complex.vhd|
+Z8 !s107 /home/labor/digilab1/digilab1_301/VHDL_kurs/V1/teil2/src/complex.vhd|
+!i113 0
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1 CvgOpt 0
+Aabstract
+DEx4 work 7 complex 0 22 2jQk7335[<_n`2J?JC;<<1
+l8
+L7
+V_4_gHKDUN<lU2bY1::]DK3
+!s100 Qi0XS<C6`H7_l=5d;=IgZ3
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 0
+R9
+R10
